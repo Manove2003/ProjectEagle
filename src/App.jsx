@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from './component/Header'
 import DebtReductionForm from './component/DebtReductionForm'
+import Allpage from './component/Allpage'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Header/>
       <DebtReductionForm/>
+      <Allpage/>
     </div>  )
 }
 
