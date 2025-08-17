@@ -67,7 +67,7 @@ export default function DebtReduction() {
             // ✅ Show form before submit
             <div className="space-y-4">
               {/* Q1 */}
-              <div>
+              {/* <div>
                 <p className="mb-2 font-medium">1. How much debt you have?</p>
                 <label>
                   <input type="radio" name="debt" value="Above $10000" onChange={handleChange} /> Above $10000
@@ -75,7 +75,20 @@ export default function DebtReduction() {
                 <label className="ml-4">
                   <input type="radio" name="debt" value="Below $1000" onChange={handleChange} /> Below $1000
                 </label>
+              </div> */}
+
+              {/* Qno1 change */}
+
+              <div>
+                <p className="mb-2 font-medium">1. How much debt you have?</p>
+                <label>
+                  <input type="radio" name="creditDebt" value="Yes" onChange={handleChange} />  Above $10000
+                </label>
+                <label className="ml-4">
+                  <input type="radio" name="creditDebt" value="No" onChange={handleChange} /> Below $1000
+                </label>
               </div>
+
 
               {/* Q2 */}
               <div>
@@ -111,7 +124,7 @@ export default function DebtReduction() {
               </div>
 
               {/* Q5 */}
-              <div>
+              {/* <div>
                 <p className="mb-2 font-medium">5. Is your credit card debt above $10,000?</p>
                 <label>
                   <input type="radio" name="creditDebt" value="Yes" onChange={handleChange} /> Yes 
@@ -119,7 +132,7 @@ export default function DebtReduction() {
                 <label className="ml-4">
                   <input type="radio" name="creditDebt" value="No" onChange={handleChange} /> No 
                 </label>
-              </div>
+              </div> */}
 
               {/* Submit button */}
               <button
